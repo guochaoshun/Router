@@ -6,6 +6,9 @@
 //  Copyright © 2016 Glow Inc. All rights reserved.
 //
 
+#ifdef DEBUG
+#else
+
 #import <objc/runtime.h>
 #import "NSDictionary+NilSafe.h"
 
@@ -253,3 +256,4 @@
 
 @end
 
+#endif

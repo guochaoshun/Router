@@ -5,7 +5,8 @@
 //  Created by Allen Hsu on 6/22/16.
 //  Copyright © 2016 Glow Inc. All rights reserved.
 //
-
+#ifdef DEBUG
+#else
 #import <Foundation/Foundation.h>
 
 
@@ -21,3 +22,4 @@
 
 @end
 
+#endif
