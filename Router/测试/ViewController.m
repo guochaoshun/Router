@@ -22,6 +22,7 @@
     [super viewDidLoad];
 
   
+    // 有直接用UIViewController , 还有用SuperViewController , 推荐还是用SuperViewController
     
 }
 

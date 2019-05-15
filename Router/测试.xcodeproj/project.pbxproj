@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BD2350228BE6C4006E0000 /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD234F228BE6C4006E0000 /* SuperViewController.m */; };
 		3E76D18621E369C20001E12A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E76D18521E369C20001E12A /* AppDelegate.m */; };
 		3E76D18921E369C20001E12A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E76D18821E369C20001E12A /* ViewController.m */; };
 		3E76D18C21E369C20001E12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E76D18A21E369C20001E12A /* Main.storyboard */; };
@@ -19,7 +20,6 @@
 		3E76D1C621E86E190001E12A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E76D1C421E86E190001E12A /* SecondViewController.m */; };
 		3E76D1C721E86E190001E12A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E76D1C521E86E190001E12A /* SecondViewController.xib */; };
 		3E76D1CD21E8793B0001E12A /* NSTimer+BlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E76D1CC21E8793B0001E12A /* NSTimer+BlockTimer.m */; };
-		3EBB313421EC302D0015C3F6 /* NSObject+Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB313321EC302D0015C3F6 /* NSObject+Selector.m */; };
 		3EBB314121ECA4F90015C3F6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB314021ECA4F90015C3F6 /* ThirdViewController.m */; };
 		3EBB314421ECA5650015C3F6 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB314321ECA5650015C3F6 /* FourViewController.m */; };
 		3EBB314A21EDB0020015C3F6 /* UIViewController+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB314921EDB0020015C3F6 /* UIViewController+Router.m */; };
@@ -43,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18BD234E228BE6C4006E0000 /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		18BD234F228BE6C4006E0000 /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
 		3E76D18121E369C20001E12A /* 测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E76D18421E369C20001E12A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E76D18521E369C20001E12A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,8 +68,6 @@
 		3E76D1C521E86E190001E12A /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		3E76D1CB21E8793B0001E12A /* NSTimer+BlockTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlockTimer.h"; sourceTree = "<group>"; };
 		3E76D1CC21E8793B0001E12A /* NSTimer+BlockTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlockTimer.m"; sourceTree = "<group>"; };
-		3EBB313221EC302D0015C3F6 /* NSObject+Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Selector.h"; sourceTree = "<group>"; };
-		3EBB313321EC302D0015C3F6 /* NSObject+Selector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Selector.m"; sourceTree = "<group>"; };
 		3EBB313F21ECA4F90015C3F6 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		3EBB314021ECA4F90015C3F6 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		3EBB314221ECA5650015C3F6 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
@@ -135,6 +135,8 @@
 				3EBB314021ECA4F90015C3F6 /* ThirdViewController.m */,
 				3EBB314221ECA5650015C3F6 /* FourViewController.h */,
 				3EBB314321ECA5650015C3F6 /* FourViewController.m */,
+				18BD234E228BE6C4006E0000 /* SuperViewController.h */,
+				18BD234F228BE6C4006E0000 /* SuperViewController.m */,
 				3EBB314821EDB0020015C3F6 /* UIViewController+Router.h */,
 				3EBB314921EDB0020015C3F6 /* UIViewController+Router.m */,
 				3EBB313121EC2FFE0015C3F6 /* Category */,
@@ -172,8 +174,6 @@
 				3E76D1CC21E8793B0001E12A /* NSTimer+BlockTimer.m */,
 				3E76D1B621E36A4B0001E12A /* NSDictionary+NilSafe.h */,
 				3E76D1B721E36A4B0001E12A /* NSDictionary+NilSafe.m */,
-				3EBB313221EC302D0015C3F6 /* NSObject+Selector.h */,
-				3EBB313321EC302D0015C3F6 /* NSObject+Selector.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -309,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EBB313421EC302D0015C3F6 /* NSObject+Selector.m in Sources */,
+				18BD2350228BE6C4006E0000 /* SuperViewController.m in Sources */,
 				3EBB314A21EDB0020015C3F6 /* UIViewController+Router.m in Sources */,
 				3E76D1C621E86E190001E12A /* SecondViewController.m in Sources */,
 				3EBB314121ECA4F90015C3F6 /* ThirdViewController.m in Sources */,
